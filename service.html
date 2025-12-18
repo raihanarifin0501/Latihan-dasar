@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servis & Perawatan - Raihan Harley Garage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <img src="assets/Harley-logo.png" class="logo-img" alt="Harley Logo">
+      <div>
+        <h1>Raihan Harley Garage</h1>
+        <p class="tagline">Feel The Freedom On The Road</p>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="collection.html">Koleksi</a>
+      <a href="service.html" class="active">Servis & Perawatan</a>
+      <a href="custom.html">Custom</a>
+      <a href="cart.html">Keranjang 🛒 (<span id="cart-count">0</span>)</a>
+      <button id="music-toggle" class="btn">🔊</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h2>Servis & Perawatan Motor Harley-Davidson</h2>
+    <p>Jaga motor Anda tetap prima dengan layanan servis berkala dan perbaikan ahli dari tim kami.</p>
+  </section>
+
+  <!-- SERVICES DETAIL -->
+  <section class="services-detail">
+    <div class="services-grid">
+      <div class="service">
+        <h3>Servis Berkala</h3>
+        <p>Layanan servis rutin untuk menjaga performa mesin, rem, dan komponen lainnya. Kami menggunakan suku cadang asli Harley-Davidson.</p>
+        <ul>
+          <li>Ganti oli dan filter</li>
+          <li>Periksa sistem rem</li>
+          <li>Periksa rantai dan roda gigi</li>
+          <li>Kalibrasi ECU</li>
+        </ul>
+      </div>
+      <div class="service">
+        <h3>Perbaikan Mesin</h3>
+        <p>Perbaikan mesin yang rusak atau aus. Tim mekanik berpengalaman siap menangani berbagai masalah teknis.</p>
+        <ul>
+          <li>Overhaul mesin</li>
+          <li>Perbaikan sistem pendingin</li>
+          <li>Perbaikan sistem bahan bakar</li>
+          <li>Diagnosa elektronik</li>
+        </ul>
+      </div>
+      <div class="service">
+        <h3>Suku Cadang Asli</h3>
+        <p>Kami menyediakan berbagai suku cadang asli Harley-Davidson dengan harga kompetitif. Pesan sekarang untuk pengiriman cepat.</p>
+        <ul>
+          <li>Ban dan velg</li>
+          <li>Aksesoris mesin</li>
+          <li>Komponen elektrik</li>
+          <li>Body parts</li>
+        </ul>
+      </div>
+      <div class="service">
+        <h3>Perawatan Khusus</h3>
+        <p>Layanan perawatan tambahan untuk meningkatkan kenyamanan dan performa motor Anda.</p>
+        <ul>
+          <li>Detailing dan polishing</li>
+          <li>Instalasi aksesoris</li>
+          <li>Perawatan cat dan body</li>
+          <li>Upgrade performa</li>
+        </ul>
+      </div>
+    </div>
+    <div class="contact-info">
+      <h3>Hubungi Kami</h3>
+      <p>Untuk informasi lebih lanjut atau booking servis, hubungi kami di:</p>
+      <p>Email: service@raihanharley.com</p>
+      <p>Telepon: +62 123 456 789</p>
+      <p>Alamat: Jl. Harley Davidson No. 123, Jakarta</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Raihan Harley Garage | Ride With Pride</p>
+  </footer>
+
+  <audio id="bgMusic" src="highway.mp3" loop preload="auto"></audio>
+
+</body>
+</html>
